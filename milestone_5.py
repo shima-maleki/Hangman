@@ -56,7 +56,7 @@ class Hangman:
         guess : str
             The letter guessed by the player.
         """
-        print(self.word)
+        
         guess = guess.lower()
         if guess in self.word:
             print(f"Good guess! {guess} is in the word.")
